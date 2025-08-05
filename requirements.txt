@@ -1,8 +1,6 @@
-tensorflow==2.15.1
 fastapi
 uvicorn
 python-multipart
-pillow
-tensorflow-serving-api==2.15.1
-matplotlib
-numpy
+Pillow
+tensorflow==2.15.1
+numpy==1.26.4
