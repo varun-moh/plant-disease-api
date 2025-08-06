@@ -17,6 +17,7 @@ app = FastAPI()
 # --- CORS MIDDLEWARE SETUP ---
 # This is the crucial part that allows your React app to talk to this server.
 origins = [
+    "https://aquamarine-wisp-fe0bca.netlify.app",
     "http://localhost:5173",  # The address of your React frontend
 ]
 
