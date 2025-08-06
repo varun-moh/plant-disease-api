@@ -31,7 +31,7 @@ app.add_middleware(
 
 # --- MODEL LOADING ---
 try:
-    MODEL = tf.keras.models.load_model("models/1.keras")
+    MODEL = tf.keras.models.load_model("models/plant_model.h5")
     CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
     logger.info("Model loaded successfully.")
 except Exception as e:
